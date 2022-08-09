@@ -33,7 +33,7 @@
  <plugins>
      <plugin>
 
-                <!-- Building an executable jar -->
+                
 
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -42,7 +42,7 @@
                   <archive>
                     <manifest>
 
-                    <!-- give full qualified name of your main class-->
+                    
                       <mainClass>org.e11eman.Main</mainClass>
 
                     </manifest>
@@ -54,7 +54,7 @@
         <artifactId>maven-shade-plugin</artifactId>
         <version>3.2.0</version>
         <executions>
-            <!-- Attach the shade goal into the package phase -->
+            
             <execution>
                 <phase>package</phase>
                 <goals>
